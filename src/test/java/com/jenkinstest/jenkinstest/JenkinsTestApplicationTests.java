@@ -19,6 +19,7 @@ class JenkinsTestApplicationTests {
     @Test
     void contextLoads() {
         logger.debug("Test class is running {}", JenkinsTestApplicationTests.class);
+        logger.debug("Test");
         assertTrue(true);
     }
 

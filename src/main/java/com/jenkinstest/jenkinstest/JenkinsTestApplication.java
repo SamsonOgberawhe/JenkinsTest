@@ -15,8 +15,8 @@ static Logger logger = LoggerFactory.getLogger(JenkinsTestApplication.class);
 
     public static void main(String[] args) {
         SpringApplication.run(JenkinsTestApplication.class, args);
-        logger.error("There is an error here");
-        logger.warn("I am warning you");
+        logger.info("There is an error here");
+        logger.info("I am warning you");
 
     }
 
