@@ -12,6 +12,7 @@ public class controller {
 
     @RequestMapping(value = "/getname", method = RequestMethod.GET)
     public String getName(){
-        return "You have successfully retrieved name";
+//
+        return "";
     }
 }
