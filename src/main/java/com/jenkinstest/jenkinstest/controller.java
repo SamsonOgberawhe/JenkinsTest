@@ -9,6 +9,6 @@ public class controller {
 
     @RequestMapping(value = "/getname", method = RequestMethod.GET)
     public String getName(){
-        return null;
+        return "This is my name";
     }
 }
