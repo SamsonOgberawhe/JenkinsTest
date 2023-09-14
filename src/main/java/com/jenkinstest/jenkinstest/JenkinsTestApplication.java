@@ -9,10 +9,9 @@ public class JenkinsTestApplication {
 
 static Logger logger = LoggerFactory.getLogger(JenkinsTestApplication.class);
 
-
     public static void main(String[] args) {
         SpringApplication.run(JenkinsTestApplication.class, args);
-        logger.info("This is the QA branch");
+        logger.info("This is the production branch");
     }
 
 }
